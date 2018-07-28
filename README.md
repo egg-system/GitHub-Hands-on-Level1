@@ -82,6 +82,10 @@ git push -u origin master
 ```
 $ git status
 ```
+* 現在のブランチを確認
+```
+$ git branch
+```
 * ブランチの作成(masterブランチを元にdevelopブランチを作成)
 ```
 $ git checkout -b develop master
@@ -90,7 +94,7 @@ $ git checkout -b develop master
 ```
 $ git status
 ```
-* ブランチの確認をしてもわかる
+* ブランチがdevelopに変わったことを確認
 ```
 $ git branch
 ```
