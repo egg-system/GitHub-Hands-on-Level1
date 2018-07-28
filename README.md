@@ -153,9 +153,17 @@ $ git checkout master
 ```
 $ git branch
 ```
+* ローカルのmasterブランチにはREADMEファイルしかないことを確認
+```
+$ ls
+```
 * リモートの情報をプルする
 ```
 $ git pull
+```
+* ローカルのmasterブランチにindex.htmlも追加されたことを確認
+```
+$ ls
 ```
 * developブランチを削除(`-d`はデリートオプション)
 ```
