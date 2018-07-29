@@ -197,3 +197,5 @@ $ git branch
 * git for Windowsでユーザー名とパスワードを間違えた場合
   * 一度入力したパスワードは内部に保存されるのでそちらを変更する
   * [GIT-CREDENTIAL-WINCREDのユーザー名やパスワードを変える](https://blog.hinaloe.net/2015/03/08/change-name-or-pass-of-git-credential-wincred/)
+* windowsでpushしようとするとエラーになる
+  * git configでメールアドレスとかを設定する
