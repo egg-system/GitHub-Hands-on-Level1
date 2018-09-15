@@ -199,3 +199,4 @@ $ git branch
   * [GIT-CREDENTIAL-WINCREDのユーザー名やパスワードを変える](https://blog.hinaloe.net/2015/03/08/change-name-or-pass-of-git-credential-wincred/)
 * windowsでpushしようとするとエラーになる
   * git configでメールアドレスとかを設定する
+  * [Gitの設定をgit configで確認・変更](https://note.nkmk.me/git-config-setting/)
