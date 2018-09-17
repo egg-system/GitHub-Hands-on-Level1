@@ -43,6 +43,20 @@
 ```
 $ git --version
 ```
+* メールアドレス、ユーザー名が設定されているか確認
+```
+$ git config user.email
+$ git config user.name
+```
+* 設定されていない場合は設定する
+```
+$ git config --global user.email "GitHubに登録した自分のメールアドレス"
+$ git config --global user.name "GitHubに登録したアカウント名"
+
+(例)
+$ git config --global user.email example@example.com
+$ git config --global user.name hikarut
+```
 
 ## GitHub Pagesとは
 * GitHubを使って静的なページを公開することができます
@@ -63,6 +77,9 @@ $ cd Hands-on
 ```
 * 先ほど作ったリポジトリをクローンする
 ```
+$ git clone "先ほど作ったリポジトリのURL"
+
+(例)
 $ git clone https://github.com/hikarut/GitHub-Pages.git
 ```
 * ディレクトリに移動してリポジトリ作成のコマンドを実行
