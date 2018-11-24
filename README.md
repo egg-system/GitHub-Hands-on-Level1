@@ -194,7 +194,7 @@ $ git branch
 ## GitHub Pagesの設定
 * [GitHub Pagesを使ってサクッとWebページを公開する](https://qiita.com/0084ken/items/4acdc7a00bf2e6f41f94)
 * ページを表示
-  * https://hikarut.github.io/GitHub-Pages/
+  * https://hikarut.github.io/GitHub-Pages/index.html
 
 
 ## appendix
