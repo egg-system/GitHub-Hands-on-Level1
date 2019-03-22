@@ -215,10 +215,13 @@ $ git branch
   ```
   $ vim index.html
   ```
-* git for Windowsでユーザー名とパスワードを間違えた場合
-  * 一度入力したパスワードは内部に保存されるのでそちらを変更する
-  * [GIT-CREDENTIAL-WINCREDのユーザー名やパスワードを変える](https://blog.hinaloe.net/2015/03/08/change-name-or-pass-of-git-credential-wincred/)
-* windowsでpushしようとするとエラーになる
+* ユーザー名とパスワードを間違えた場合(認証エラーになる場合)
+  * Windowsの場合(git for Windows)
+    * 一度入力したパスワードは内部に保存されるのでそちらを変更する
+    * [GIT-CREDENTIAL-WINCREDのユーザー名やパスワードを変える](https://blog.hinaloe.net/2015/03/08/change-name-or-pass-of-git-credential-wincred/)
+  * Macの場合
+    * キーチェーンに保存されているGithubのパスワードをリセットする
+* pushしようとするとエラーになる
   * git configでメールアドレスとかを設定する
   * [Gitの設定をgit configで確認・変更](https://note.nkmk.me/git-config-setting/)
 * GitHub Pagesでページが404になる時
